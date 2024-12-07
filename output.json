@@ -1,0 +1,23 @@
+{
+    "ip_address": "192.168.1.100",
+    "subnet_mask": "255.255.255.0",
+    "gateway": "192.168.1.1",
+    "ports": [
+        "80",
+        "443",
+        "22"
+    ],
+    "db_host": "localhost",
+    "db_name": "mydb",
+    "db_user": "admin",
+    "db_pass": "MySecretPassword",
+    "db_password": "MySecretPassword",
+    "server_port": "8080",
+    "max_connections": "100",
+    "threads": [
+        "1",
+        "2",
+        "3"
+    ],
+    "log_file": "/var/log/server.log"
+}

@@ -1,0 +1,15 @@
+ip_address := q(192.168.1.100)
+subnet_mask := q(255.255.255.0)
+gateway := q(192.168.1.1)
+; Комментарий
+ports := {80, 443, 22}
+; Настройки подключения
+db_host := q(localhost)
+db_name := q(mydb)
+db_user := q(admin)
+db_pass := $db_password
+db_password := q(MySecretPassword)
+server_port := 8080
+max_connections := 100
+threads := {1,2,3}
+log_file := q(/var/log/server.log)
